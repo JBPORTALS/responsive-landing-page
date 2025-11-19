@@ -2,10 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
 
+/* Variables */
 @theme {
   --font-sans: "Rubik", sans-serif;
   --font-display: "Rubik Dirt", system-ui;
+  --color-foreground: #313131;
   --color-primary: #005439;
+  --color-primary-foreground: #ffffff;
   --color-secondary: #e3fee1;
   --color-secondary-foreground: #031c06;
+  --color-brand-green: #6cf381;
+  --color-brand-green-foreground: #014214;
+}
+
+@layer base {
+  body {
+    @apply text-foreground;
+  }
 }
