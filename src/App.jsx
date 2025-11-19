@@ -6,15 +6,20 @@
  * 3. Here we are gonna use google fonts to match up to the design -
  *    `Rubik` for body font - https://fonts.google.com/specimen/Rubik
  *    `Rubik Dirt` for display font - https://fonts.google.com/specimen/Rubik+Dirt
- *.   Get font -> Web -> Get Embed Code -> Import
+ *    Get font -> Web -> Get Embed Code -> Import
  */
+import { Header } from "./components/header";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-4xl font-display">Smarter Banking, Made for you</h1>
-      <p>Powerful tools. Real benifits. All in one place.</p>
-    </div>
+    <main className="min-h-svh">
+      <Header />
+
+      <section>
+        <h1 className="text-4xl font-display">Smarter Banking, Made for you</h1>
+        <p>Powerful tools. Real benifits. All in one place.</p>
+      </section>
+    </main>
   );
 }
 
