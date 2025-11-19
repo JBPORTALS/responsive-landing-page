@@ -36,6 +36,8 @@ function App() {
           className="w-[400px] h-[400px] lg:w-[600px] lg:h-[600px] aspect-square py-4"
         />
       </section>
+
+      {/** Q1: Remaining sections you have to design it */}
     </main>
   );
 }
