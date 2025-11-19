@@ -18,12 +18,12 @@ function App() {
     <main className="min-h-svh">
       <Header />
 
-      <section className="bg-primary gap-8 text-primary-foreground min-h-[calc(100svh-56px)] lg:min-h-[calc(100svh-112px)] p-8 flex items-center flex-col lg:p-16 lg:flex-row lg:justify-between">
-        <div className="flex flex-col gap-6 items-center lg:items-start">
-          <h1 className="text-5xl font-display text-center lg:text-8xl lg:text-left">
+      <section className="bg-primary gap-8 text-primary-foreground min-h-fit md:min-h-[calc(100svh-112px)] p-8 flex items-center flex-col md:p-16 md:flex-row md:justify-between">
+        <div className="flex flex-col gap-6 items-center md:items-start">
+          <h1 className="text-5xl font-display text-center md:text-8xl md:text-left">
             Smarter Banking, Made for you
           </h1>
-          <p className="text-center text-lg text-primary-foreground/80 lg:text-left">
+          <p className="text-center text-lg text-primary-foreground/80 md:text-left">
             Powerful tools. Real benifits. All in one place.
           </p>
           <Button variant={"green"} size={"lg"} className={"w-fit"}>
@@ -33,7 +33,7 @@ function App() {
 
         <img
           src={CardCoin}
-          className="w-[400px] h-[400px] lg:w-[600px] lg:h-[600px] aspect-square py-4"
+          className="w-[400px] h-[400px] md:w-[600px] md:h-[600px] aspect-square py-4"
         />
       </section>
 
