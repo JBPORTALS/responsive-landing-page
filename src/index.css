@@ -5,4 +5,7 @@
 @theme {
   --font-sans: "Rubik", sans-serif;
   --font-display: "Rubik Dirt", system-ui;
+  --color-primary: #005439;
+  --color-secondary: #e3fee1;
+  --color-secondary-foreground: #031c06;
 }

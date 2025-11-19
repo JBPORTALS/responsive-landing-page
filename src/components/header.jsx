@@ -4,8 +4,9 @@ export function Header() {
   return (
     <header className="flex items-center justify-between h-14 px-6 lg:px-16 bg-white">
       <div className="flex items-center gap-4">
-        <h3 className="text-2xl font-display text-[#005439]">NextGen</h3>
-        <div className="space-x-3.5 [&>a]:text-green-700 [&>a]:text-sm lg:block hidden">
+        {/** Chagne hardcoded color codes to variable */}
+        <h3 className="text-2xl font-display text-primary">NextGen</h3>
+        <div className="space-x-3.5 [&>a]:text-primary [&>a]:text-sm lg:block hidden">
           <a href="#">Personal</a>
           <a href="#">Buisness</a>
         </div>
@@ -17,9 +18,8 @@ export function Header() {
         <a href="#">Check & Savings</a>
         <a href="#">Benifits & Tools</a>
 
-      
         <div className="flex items-center gap-2 pl-3">
-          <Button variant={'secondary'}>Log in</Button>
+          <Button variant={"secondary"}>Log in</Button>
           <Button>Get Started</Button>
         </div>
       </div>

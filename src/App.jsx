@@ -15,7 +15,7 @@ function App() {
     <main className="min-h-svh">
       <Header />
 
-      <section>
+      <section className="bg-primary">
         <h1 className="text-4xl font-display">Smarter Banking, Made for you</h1>
         <p>Powerful tools. Real benifits. All in one place.</p>
       </section>
